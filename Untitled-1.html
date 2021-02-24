@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Table template</title>
+    <link href="minimal-table.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Table template</h1>
+      
+      <table>
+     <tr>
+      <th>Hi, I'm your first cell.</th>
+      <th>I'm your second cell.</th>
+      <td>I'm your third cell. 🌟🌟🌟</td>
+      <td>I'm your fourth cell.</td>
+      </tr>
+      
+      <tr>
+          
+          <td>hi, im your second row</td>
+          <td>Second cell of the row</td>
+          </tr>
+      </table>
+
+      
+      <form action="" method="get">
+       <div> <lable> name :</lable>
+          
+          <input type="text" name="name" id="name" placeholder="arihant">
+        
+        </div>    
+          
+       <div>
+          
+          <lable for="place">choose your destination:</lable>
+          <input list="states" name ="place" id="place" placeholder="delhi">
+           <datalist id="states">
+           <option value="delhi">
+               <option value="pune">city of gundas</option>
+           <option value="delhi">
+               <option value="delhi">city of pm</option>
+           </datalist>
+          
+        </div>
+
+      
+      <label for="ice-cream-choice">Choose a flavor:</label>
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" placeholder="butterscotch"/>
+
+<datalist id="ice-cream-flavors">
+    <option value="Chocolate">
+    <option value="Coconut">
+    <option value="Mint">
+    <option value="Strawberry">
+    <option value="Vanilla">
+</datalist>
+      <div>
+          <lable for="number code">choose your coountry code and enter number:</lable>
+          <input list="code" id=" code" name="code" placeholder="91">
+          <datalist id="code">
+          <option value ="+91">india</option>
+          <option value ="+011">india</option>
+          <option value ="+44">usa</option>          
+          </datalist>
+          <input type="tel" name="mobile number" placeholder="355478526">
+      </div>      
+          
+        <p>
+            <input type="reset">
+            <button>submit</button>
+        </p>          
+      </form>
+  </body>
+</html>
